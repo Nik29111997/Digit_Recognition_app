@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digit Recognition App</title>
+</head>
+<body>
+    <h1>Handwritten Digit Recognition</h1>
+    <form action="/predict" method="post" enctype="multipart/form-data">
+        <p>Upload a digit image:</p>
+        <input type="file" name="digit" accept="image/*" required><br><br>
+        <input type="submit" value="Predict Digit">
+    </form>
+    <h2>{{ prediction_text }}</h2>
+</body>
+</html>
