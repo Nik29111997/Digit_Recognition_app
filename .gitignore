@@ -1,0 +1,36 @@
+# Ignore the virtual environment directory
+venv/
+
+# Ignore Python cache files
+__pycache__/
+*.py[cod]
+
+# Ignore environment variables files
+.env
+
+# Ignore database files
+*.sqlite3
+
+# Ignore compiled files
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore logs
+*.log
+*.out
+*.pid
+
+# Ignore temporary files
+*.swp
+*.bak
+*.tmp
+
+# Ignore macOS system files
+.DS_Store
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore the model file if it's too large
+digit_recognition_cnn.pkl
